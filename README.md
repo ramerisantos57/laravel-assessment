@@ -52,6 +52,25 @@ The return all GET request (/tours), needs to accept pagination as follow:
 - Use laravel validation.
 - Use soft delete trait.
 - Use JSON format.
-- Write  Unit tests for your API is a plus! 
+- Write  Unit tests for your API is a plus!
 
 Good luck!
+
+## Instalação
+
+Dependências:
+
+- Composer
+- Docker
+- Git
+
+Após instalar as dependências acima, execute estes comandos:
+
+```
+git clone https://github.com/ramerisantos57/laravel-assessment.git
+cd laravel-assessment
+composer install
+cp .env.develop .env
+php artisan key:generate
+docker-compose up
+```
